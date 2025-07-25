@@ -39,5 +39,5 @@ jobs:
       - name: Upload mod jar
         uses: actions/upload-artifact@v4
         with:
-          name: Minecraft-Forge-Mod
+          name: built-mod
           path: build/libs/*.jar
