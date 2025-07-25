@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="mca_companion"
+version="1.0"
+displayName="MCA Companion"
+description="Adds hand-holding and furniture sitting interactions with NPCs"
+authors="YourName"
+
+[[dependencies.mca_companion]]
+modId="forge"
+mandatory=true
+versionRange="[47.2.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.mca_companion]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1]"
+ordering="NONE"
+side="BOTH"
